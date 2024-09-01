@@ -1,6 +1,7 @@
 //Anaisabela Guerrero Bello
 //Comi 2
 //leg 94713/3
+//https://youtu.be/37L4EBuCpJ0
 
 let referencia;
 let invertirCuadros = false;
