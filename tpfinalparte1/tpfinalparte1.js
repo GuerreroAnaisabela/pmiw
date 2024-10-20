@@ -1,3 +1,7 @@
+//https://youtu.be/Nk8d-9j_rbo
+//Anaisabela Guerrero 
+//Eyen Gialleonardo
+//Comision 2
 let pantactual = 0
   let ima = []
   let textos = []
