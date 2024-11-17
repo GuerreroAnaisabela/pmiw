@@ -1,3 +1,7 @@
+//Isabela Guerrero
+//Eyen Gialleonardo
+//Comision 2
+//https://www.youtube.com/watch?v=H5hK0rVswbc
 let sakura;
 let estrellas = [];
 let enemigos = [];
