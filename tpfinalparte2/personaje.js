@@ -4,7 +4,7 @@ class Sakura {
     this.alto = 80;
     this.x = 250;
     this.y = 400;
-    this.velocidad = 10;
+    this.velocidad = 8;
     this.imagenActual = imgIzquierda;
     this.recibiendoGolpe = false;
     this.tiempoGolpe = 0;

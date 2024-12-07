@@ -1,13 +1,11 @@
-//Isabela Guerrero
-//Eyen Gialleonardo
-//Comision 2
-//https://www.youtube.com/watch?v=H5hK0rVswbc
+let juego;
+
 let sakura;
 let estrellas = [];
 let enemigos = [];
 let estrellasAtrapadas = 0;
 let vidas = 3;
-let velocidad = 2;
+let velocidad = 0.3;
 let estado = "inicio";
 let tiempo = 0;
 let caidaBuena = 0;
@@ -15,7 +13,7 @@ let caidaMala = 0;
 let intervaloBuenos = 1500;
 let intervaloMalos = 2000;
 let pantallaInicio, pantallaPerdiste, pantallaGanaste, fondo, imgIzquierda, imgDerecha, imgGolpe, estrella, enemigo, creditos, corazon, puntos;
-
+let pantallas;
 let miFuente;
 
 let song;
@@ -42,23 +40,14 @@ function preload() {
 
 function setup() {
   createCanvas(640, 480);
+  juego = new Juego();
   sakura = new Sakura();
-  reiniciarObjetos();
+  pantallas = new Pantallas();
   song.setVolume(0.2);
   song.play();
 }
 
 function draw() {
   background(200, 220, 255);
-
-  if (estado === "inicio") {
-    mostrarInicio();
-  } else if (estado === "jugando") {
-    jugar();
-  } else if (estado === "resultado") {
-    mostrarPantallaResultado();
-  } else if (estado === "creditos") {
-    mostrarCreditos();
-
-  }
+  pantallas.dibujar();
 }
