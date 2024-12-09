@@ -1,3 +1,5 @@
+//Anaisabela Guerrero y Eyen Gialleonardo, comisión 2
+//https://youtu.be/70-SndW_4bA
 let juego;
 
 let sakura;
